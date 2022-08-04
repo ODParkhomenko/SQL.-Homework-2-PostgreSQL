@@ -1,4 +1,4 @@
-# SQL.-Homework-3-Select-queries-selections-from-one-table-
+# SQL.-Homework-2-Select-queries-selections-from-one-table-
 # Домашнее задание к лекции «Проектирование БД. Связи. 3НФ»
 
 ## Задание 
