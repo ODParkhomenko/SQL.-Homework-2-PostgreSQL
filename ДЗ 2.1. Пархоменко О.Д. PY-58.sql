@@ -12,7 +12,8 @@ create table if not exists Albums (
 create table if not exists Tracks (
 	id_track integer primary key,
 	track_name varchar (100) not null,
-	track_duration time not null check (track_duration > '10:00:00')
+	track_duration time not null check (track_duration < '10:00:00'),
+	id_album_t integer not null
 );
 
 create table if not exists Genres (
